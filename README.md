@@ -66,16 +66,6 @@ Explore the full analysis live:
 
 ---
 
-## 🔮 Future Enhancements
-
-- Integrate an LLM (e.g., ChatGPT) to auto-generate insights from plots  
-- Incorporate forecasting models to predict workload trends  
-- Add agent demographic or tenure data to deepen performance analysis
-
----
-
----
-
 ## 🧾 Final Summary
 
 This project delivers a comprehensive view of agent performance by analyzing task-level data from a credit union’s employment verification operations.
@@ -118,5 +108,13 @@ This project delivers a comprehensive view of agent performance by analyzing tas
 - **Maintain Balanced Workload Distribution**  
   The team processes around **~3,000 tasks/day**.  
   Avoid overloading high-performing agents to sustain productivity across the board.
+
+---
+
+## 🔮 Future Enhancements
+
+- Integrate an LLM (e.g., ChatGPT) to auto-generate insights from plots  
+- Incorporate forecasting models to predict workload trends  
+- Add agent demographic or tenure data to deepen performance analysis
 
 ---
