@@ -4,22 +4,23 @@
 
 An interactive dashboard designed to evaluate agent productivity, task efficiency, and performance patterns within a credit union's employment verification call center.
 
+## 🧩 Problem Statement
+
+The credit union’s call center is responsible for completing employment verification requests, where each order consists of multiple task types.  
+Agents often interact with the same order multiple times due to task complexity, resulting in varying handle times and outcomes.
+
 ---
 
-## 📌 Project Overview
+## 🎯 Project Goals & Objectives
 
-A credit union call center manages **employment verification requests**, each involving multiple task types.  
-Agents may interact with the same order multiple times based on complexity and need. These interactions vary by type, handle time, and outcome.
+The primary objective of this project is to uncover agent-level performance patterns and operational insights using task-level data from an 85-day period.
 
-This project analyzes **task-level operational data over 85 days** to uncover performance trends, inefficiencies, and optimization opportunities.
+### Specifically, this project aims to:
 
-### 🎯 Objectives:
-- Understand workload distribution across agents
-- Identify performance gaps and process inefficiencies
-- Evaluate success rates and handle times
-- Detect agent specialization patterns
-
-The final deliverable is a fully interactive dashboard that visualizes these insights, enabling smarter workforce planning and performance management.
+- 📊 **Analyze workload distribution** to understand how tasks are allocated across agents  
+- ⏱️ **Measure effectiveness** using KPIs like average handle time and task success rate  
+- 🧠 **Uncover specialization patterns** by examining agent-wise task type trends  
+- 📈 **Deliver interactive insights** through a Streamlit dashboard to support smarter workforce and process decisions
 
 ---
 
