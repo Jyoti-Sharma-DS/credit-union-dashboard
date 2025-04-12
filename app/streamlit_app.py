@@ -43,11 +43,11 @@ random.seed(random_seed)
 warnings.filterwarnings('ignore')
 
 # ------------------- Streamlit Page Setup ------------------- #
-st.set_page_config(page_title="Credit Union Agent Performance Dashboard", layout="wide")
+st.set_page_config(page_title="Agent Performance Dashboard", layout="wide")
 st.title("📞 Credit Union Agent Performance Dashboard")
 
 # ------------------- Load Data ------------------- #
-# Load your dataset
+# Load your datase
 data_path = "data/bq-results-20230523-190701-1684868834975.csv"
 df = load_data(data_path)
 
