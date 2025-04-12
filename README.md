@@ -1,4 +1,4 @@
-# 🧠 Agent Performance Dashboard
+# 📈 Agent Performance Dashboard
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://credit-union-agent-performance-analytics-js.streamlit.app/)
 
