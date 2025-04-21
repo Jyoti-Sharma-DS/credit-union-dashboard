@@ -27,8 +27,8 @@ from scripts.visuals import (
 )
 
 
-st.cache_data.clear()     # Clears data cache
-st.cache_resource.clear() # Clears resource cache (e.g., models, connections)
+# st.cache_data.clear()     # Clears data cache
+# st.cache_resource.clear() # Clears resource cache (e.g., models, connections)
 # set the global seed
 # Set the random seed
 random_seed=1212
