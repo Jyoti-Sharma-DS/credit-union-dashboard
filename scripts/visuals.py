@@ -265,8 +265,7 @@ def gen_percentage_plt_plotly(df, strcol, horizontal=False, color = 'viridis'):
 
     fig.update_traces(texttemplate='%{text:.1f}%', textposition='outside')
     fig.update_layout(
-        title=f"{column_name_label} Percentage Distribution",
-        height=500
+        title=f"{column_name_label} Percentage Distribution"
     )
 
     st.plotly_chart(fig, use_container_width=True)
@@ -409,9 +408,7 @@ def plot_categorical_associations_dython(df , categorical_vars ):
          origin='lower',
          zmin=0,
          zmax=1,
-         labels={'x': 'Variable', 'y': 'Variable'},
-
-         height=500
+         labels={'x': 'Variable', 'y': 'Variable'}
     )
     fig.update_layout(
          title="Associations between Features ",
@@ -449,9 +446,7 @@ def plot_agent_task_category_distribution(df):
         color='Task_Category',
         title='Task Category Distribution by Agent',
         labels={'AGENT_ID': 'Agent ID', 'Percentage': '% of Tasks(#)'},
-        opacity=0.8,
-        height=900,
-        width = 900
+        opacity=0.8
     )
     
     # Set bar mode to 'stack' and order the x-axis categories by total count
